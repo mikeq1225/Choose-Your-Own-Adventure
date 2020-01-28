@@ -17,12 +17,12 @@ if (playGame) {
       Click 'Ok' to charge it!
       click 'Cancel' to take it easy`)
     if (mogul == true) {
-      alert(`You chose to charge it down the mogul run.  Unfortunately you skills didn't match the difficulty of the run.
-        You ended up needed to be rushed to the hospital bt Ski Patrol.
+      alert(`You chose to charge it down the mogul run.  Unfortunately your skills didn't match the difficulty of the run.
+        You ended up needing to be rushed to the hospital by Ski Patrol.
         
         Game Over!`)
     } else {
-      alert(`Your choice to take it easy was wise abd you were able to enjoy your run through the moguls. You had enough energy left to have a drink at the bar.
+      alert(`Your choice to take it easy was wise and you were able to enjoy your run through the moguls. You had enough energy left to have a drink at the bar.
         We'll see you next weekend.
         
         Game Over!`)
@@ -41,7 +41,9 @@ if (playGame) {
         Click 'Cancel' for no.`)
       if (rails == true) {
         alert(
-          `Because you have ridden some rails before, you will be just fine. You rip up the rails and have an awesome time while everyone cheers you on.`
+          `Because you have ridden some rails before, you will be just fine. You rip up the rails and have an awesome time while everyone cheers you on.
+          
+          Game Over!`
         )
       } else {
         alert(`You've never tried rails before and ended up hurting yourself on the first one.  Ski patrol is on the way.  Hang in there!
@@ -63,7 +65,7 @@ if (playGame) {
       }
     } else if (park == 3) {
       var bigAir = prompt(
-        `On a scal from 1 (lacking) to 10 (almost professional), how confident are you in your snowboarding abilities?`
+        `On a scale from 1 (lacking) to 10 (almost professional), how confident are you in your snowboarding abilities?`
       )
       if (bigAir >= 0 && bigAir <= 3) {
         alert(`You probaly shouldn't be in this area. You need to find an easier way down
@@ -83,23 +85,6 @@ if (playGame) {
           Game Over!`)
       }
     } else {
-      /*} else if (park == 3) {
-        var bigAir = confirm(`Are you sure you have the guts to get almost 3 seconds of hang time?
-        Click 'Ok' for yes.
-        Click 'Cancel' for no.`)
-        if (bigAir == true) {
-          alert(`I like your bravado.  Confidence always pays off.  Bir Air is where the fame is.
-          You Rock!
-          
-          Game Over!`)
-        } else {
-          alert(`Big Air isn't for you, but since you are here you may as well hit it!
-          
-          It doesn't end well.  You end up in the hospital for months.
-          
-          Game Over!`)
-        }
-      }*/
       alert(`You didn't make an acceptable choice and Ski Patrol asked you to leave the mountain.
         
         Game Over!`)
@@ -114,7 +99,7 @@ if (playGame) {
         Game Over!`)
     } else {
       alert(`Really??? You are going to waste this opportunity to ride fresh powder?
-        Good Day sir!
+        Good Day sir (he says condedcengingly)!
         
         Game Over!`)
     }
